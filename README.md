@@ -1,8 +1,46 @@
-## Welcome to GitHub Pages
+## Welcome to my project!
 
-You can use the [editor on GitHub](https://github.com/A21IvanER/a21ivaner.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+> “The supreme art of war is to subdue the enemy without fighting.” ― Sun Tzu, The Art of War
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Image](https://data.ukiyo-e.org/artelino/images/18014g1.jpg)
+
+Python:
+~~~
+x = 1
+y = 2.8
+z = 1j
+
+print(type(x))
+print(type(y))
+print(type(z))  
+~~~
+
+C#:
+~~~
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum = 5;               // integer (whole number)
+      double myDoubleNum = 5.99D;  // floating point number
+      char myLetter = 'D';         // character
+      bool myBool = true;          // boolean
+      string myText = "Hello";     // string
+      Console.WriteLine(myNum);
+      Console.WriteLine(myDoubleNum);
+      Console.WriteLine(myLetter);
+      Console.WriteLine(myBool);
+      Console.WriteLine(myText);
+    }
+  }
+}  
+~~~
+
+***
 
 ### Markdown
 
@@ -21,10 +59,23 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
+* Unordered
+    * List
+    * Unordered
+        * List
+
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and 
 ```
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
