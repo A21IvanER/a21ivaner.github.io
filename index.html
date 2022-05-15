@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+  <head>
+    <meta charset="utf-8">
+    <title>La mejor tienda gourmet</title>
+
+    <style>
+    body{
+      background-color: lightpink;
+      width: 800px;
+      padding-left: 245px;
+    }
+    h1{
+      text-align: center;
+    }
+    .center {
+      text-align: center;
+    }
+    </style>
+
+  </head>
+
+  <body>
+    
+    <div class=center><h1>La mejor tienda gourmet</h1></div>
+
+    <div style="text-align: center;">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/1b/a0/da/5a/coffee-shop.jpg">
+    </div>
+
+    <form>
+
+      <hr>
+
+      <h3>ENVIAR LA COMPRA:</h3>
+      <fieldset class=fieldset>
+        Nombre:<input type="text" name="nombre"
+        maxlength=40 size=30 value="Escriba su nombre completo" autofocus><br>
+        <h4>Dirección:</h4><textarea name="direccion" rows="6" cols="55"></textarea><br>
+        Ciudad:<input type="text" name="ciudad"
+        maxlength=15 size=20><br>
+        Provincia:<input type="text" name="provincia"
+        maxlength=15 size=20><br>
+        C.P.:<input type="number" name="codigopostal"
+        maxlength=5 size=10>
+      </fieldset>
+
+      <hr>
+
+      <h3>PAGO:</h3>
+      <fieldset class=fieldset>
+        <legend>Forma de pago</legend>
+        <h4>Forma de pago:</h4>
+        <input type="radio" name="pago" value="efectivo">Efectivo
+        <input type="radio" name="pago" value="tarjeta">Tarjeta
+      </fieldset>
+
+      <br>
+
+      Seleccione su Tarjeta:<select name="menu" size=3 multiple>
+        <option value="1" selected>Banco Santander</option>
+        <option value="2">Banco Sabadell</option>
+        <option value="3">Abanca</option>
+      </select>
+      Nº Tarjeta:<input type="text" name="correoelectronico"
+      maxlength=16 size=25><br>
+
+      <hr>
+
+      <h4>FECHA deseada</h4>
+      <h4>de entrega (Día-Mes-Año):</h4><input type="number" name="dia"
+      maxlength=2 size=5 min=1 max=31 step=1><select name="mes" size=1>
+        <option value="1">Enero</option>
+        <option value="2">Febrero</option>
+        <option value="3">Marzo</option>
+        <option value="4">Abril</option>
+        <option value="5">Mayo</option>
+        <option value="6">Junio</option>
+        <option value="7">Julio</option>
+        <option value="8">Agosto</option>
+        <option value="9">Septiembre</option>
+        <option value="10">Octubre</option>
+        <option value="11">Noviembre</option>
+        <option value="12">Diciembre</option>
+      </select><input type="number" name="año"
+      maxlength=4 size=6 value=2021 disabled><br>
+
+      <hr>
+      <br>
+      <hr>
+
+      <fieldset class=fieldset>
+        Si su pedido es para un regalo, puede elegir el color del envoltorio.<input type="color">
+        <hr>
+        Desea recibir información de nuestras ofertas a través de: <input type="checkbox" name="correo"> email <input type="checkbox" name="mail">Correo ordinario <input type="checkbox" name="telefono" checked> Teléfono
+        <br>
+        email:<input type="email" name="correoelectronico"
+        maxlength=50 size=60>
+        <br>
+        Teléfono:<input type="tel" name="correoelectronico"
+        maxlength=11 size=40>
+        <hr>
+        Fecha de nacimiento:<input type="date" name=fechanacimiento>
+        <hr>
+        Alguna sugerencia?<input type="text" name="correoelectronico" autocomplete="on"
+        maxlength=70 size=45>
+      </fieldset>
+
+      <hr>
+
+      <button type=submit>
+        <img alt="imagen" title="pagar" 
+        src="https://lh5.googleusercontent.com/bFrBlYr6II6eooE1aNqLrdlNS674LLcJF06dfanHyMWQXkluiPdFzm_GagMC2QlTvLa8NY3hEXKBKtpSfLGsDHtSccvWe-JfsFfsSQnq9pcozckzM6AyH2mhPumKhujO1UwUHf0" 
+        width="16"
+        height="16"/>
+      </button>
+      <div style=padding-left:700px><input type="reset" name="reset" value="Borrar datos"></div>
+
+    </form>
+
+  </body>
+</html>
